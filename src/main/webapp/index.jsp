@@ -7,7 +7,7 @@
 
 <body>
 
-<h1>Welcome to DevopsDigger DevOps CI/CD Project</h1>
+<h1>Welcome to guvi DevOps CI/CD Project</h1>
 
 <hr>
 
