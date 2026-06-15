@@ -42,12 +42,17 @@ Phase 2: Install Required Plugins
 ==================================
 Manage Jenkins → Plugins
 Install:
-	• Git Plugin 
-	• Maven Integration Plugin 
-	• JUnit Plugin 
-	• SonarQube Scanner Plugin 
-	• SSH Agent Plugin 
-	• Publish Over SSH Plugin 
+	• Git Plugin
+	• Git Client Plugin
+	• Pipeline Plugin
+	• Maven Integration Plugin
+	• JUnit Plugin
+	• Credentials Plugin
+	• SSH Agent Plugin
+	• Publish Over SSH Plugin
+	• Pipeline Stage View Plugin
+	• Blue Ocean Plugin
+    • Build Timestamp Plugin
 Restart Jenkins.
 
 #############################################################################
