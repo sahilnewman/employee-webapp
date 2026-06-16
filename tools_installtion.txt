@@ -1,3 +1,15 @@
+Putty software: 
+----------------
+https://putty.org/index.html
+
+PuttyGen Software: 
+------------------
+https://puttygen.com/download-putty
+or 
+https://winscp.net/download/puttygen.exe/download#google_vignette
+
+=================================================================================
+
 Git Installation: 
 -----------------
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
