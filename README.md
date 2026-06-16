@@ -50,6 +50,7 @@ Install:
 	• Credentials Plugin
 	• SSH Agent Plugin
 	• Publish Over SSH Plugin
+	• Build Pipeline
 	• Pipeline Stage View Plugin
 	• Blue Ocean Plugin
     • Build Timestamp Plugin
