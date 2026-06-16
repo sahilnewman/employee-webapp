@@ -55,3 +55,15 @@ Jenkins installation:
 ---------------------
 https://www.jenkins.io/doc/book/installing/
 
+
+CMD: 
+   37  sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2026.key
+   38  echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]"   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   39  sudo apt update
+   40  sudo apt install jenkins
+   41  sudo systemctl edit jenkins
+   42  sudo systemctl daemon-reload
+   43  sudo systemctl start jenkins
+   44  sudo systemctl status jenkins
+   45  sudo systemctl enable Jenkins
+
