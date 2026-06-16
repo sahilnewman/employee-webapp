@@ -7,7 +7,7 @@
 
 <body>
 
-<h1>Welcome DevOpsDigger DevOps Workshop CI/CD Project</h1>
+<h1>Welcome DevOpsDigger DevOps Workshop CI/CD Project 16th june 2026</h1>
 
 <hr>
 
