@@ -29,7 +29,7 @@ Tomcat Download link: https://tomcat.apache.org/download-10.cgi
    18  sudo chmod g+x conf
    19  sudo chown -R tomcat webapps/ work/ temp/ logs/
    20  sudo update-java-alternatives -l
-   21  sudo nano /etc/systemd/system/tomcat.service  //(sudo rm -r /etc/systemd/system/tomcat.service) to remove the old content//
+   21  sudo nano /etc/systemd/system/tomcat.service
    22  sudo systemctl daemon-reload
    23  sudo systemctl start tomcat
    24  sudo systemctl enable tomcat
@@ -37,11 +37,10 @@ Tomcat Download link: https://tomcat.apache.org/download-10.cgi
    26  ls
    27  sudo nano /opt/tomcat/conf/tomcat-users.xml
    28  sudo rm -r /opt/tomcat/conf/tomcat-users.xml
-   29  sudo nano /opt/tomcat/conf/tomcat-users.xml
+   29  sudo nano /opt/tomcat/conf/tomcat-users.xml  //(copy the content of tomcat user xml and paste in the file )
    30  sudo nano /opt/tomcat/webapps/manager/META-INF/context.xml
    31  sudo nano /opt/tomcat/webapps/host-manager/META-INF/context.xml
    32  sudo systemctl restart tomcat
-
 
 http://<IP Address>:8080/manager/html
 
