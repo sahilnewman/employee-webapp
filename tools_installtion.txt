@@ -29,7 +29,7 @@ Tomcat Download link: https://tomcat.apache.org/download-10.cgi
    18  sudo chmod g+x conf
    19  sudo chown -R tomcat webapps/ work/ temp/ logs/
    20  sudo update-java-alternatives -l
-   21  sudo nano /etc/systemd/system/tomcat.service
+   21  sudo nano /etc/systemd/system/tomcat.service  //(sudo rm -r /etc/systemd/system/tomcat.service) to remove the old content//
    22  sudo systemctl daemon-reload
    23  sudo systemctl start tomcat
    24  sudo systemctl enable tomcat
