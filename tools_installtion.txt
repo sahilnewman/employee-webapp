@@ -1,0 +1,58 @@
+Git Installation: 
+-----------------
+https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+==================================================================================
+Tomcat Installation:
+--------------------
+https://www.google.com/search?q=install+tomcat+on+ubnutu+machine+and+configure&rlz=1C1RXQR_enIN1006IN1006&oq=install+tomcat+on+ubnutu+machine+and+configure+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQIRgKGKABMgkIAhAhGAoYoAEyCQgDECEYChigATIHCAQQIRiPAtIBCDkzNzRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8
+
+Tomcat Download link: https://tomcat.apache.org/download-10.cgi
+
+    1  sudo apt update
+    2  sudo apt upgrade -y
+    3  sudo apt install git-all
+    4  git --version
+    5  sudo apt update
+    6  sudo apt install openjdk-21-jdk-headless -y
+    7  java -version
+    8  sudo groupadd --system tomcat
+    9  sudo useradd --system --no-create-home --gid tomcat --shell /bin/false tomcat
+   10  cd /tmp
+   11  wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.55/bin/apache-tomcat-10.1.55.tar.gz
+   12  ls
+   13  sudo mkdir /opt/tomcat
+   14  sudo tar -xf apache-tomcat-10* -C /opt/tomcat --strip-components=1
+   15  cd /opt/tomcat
+   16  sudo chgrp -R tomcat /opt/tomcat
+   17  sudo chmod -R g+r conf
+   18  sudo chmod g+x conf
+   19  sudo chown -R tomcat webapps/ work/ temp/ logs/
+   20  sudo update-java-alternatives -l
+   21  sudo nano /etc/systemd/system/tomcat.service
+   22  sudo systemctl daemon-reload
+   23  sudo systemctl start tomcat
+   24  sudo systemctl enable tomcat
+   25  sudo ufw allow 8080
+   26  ls
+   27  sudo nano /opt/tomcat/conf/tomcat-users.xml
+   28  sudo rm -r /opt/tomcat/conf/tomcat-users.xml
+   29  sudo nano /opt/tomcat/conf/tomcat-users.xml
+   30  sudo nano /opt/tomcat/webapps/manager/META-INF/context.xml
+   31  sudo nano /opt/tomcat/webapps/host-manager/META-INF/context.xml
+   32  sudo systemctl restart tomcat
+
+
+http://<IP Address>:8080/manager/html
+
+===========================================================
+Maven Installation: 
+-------------------
+https://maven.apache.org/install.html 
+
+==========================================================
+
+Jenkins installation: 
+---------------------
+https://www.jenkins.io/doc/book/installing/
+
