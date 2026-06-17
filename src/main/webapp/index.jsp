@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>DigiBroch DevOps Demo</title>
+<title>Guvi DevOps Demo</title>
 </head>
 
 <body>
