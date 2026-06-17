@@ -7,7 +7,7 @@
 
 <body>
 
-<h1>Welcome to DevOpsDigger</h1>
+<h1>Welcome to Guvi Devops</h1>
 <h2> this is your host Sahil <h2>
 <hr>
 
